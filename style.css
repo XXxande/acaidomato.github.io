@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 75px;
+    background-color: #662c96c7;
+}
+
+.jumbotron {
+    background-color: #662c96c7;
+    color: #eee;
+}
+
+.jumbotron-texto {
+    background-color: #662c96c7;
+    color: #eee;
+    border-radius: 50px 0 50px 0;
+}
+
+.confimacao {
+    position: absolute;
+    width: 30px;
+    margin: 11px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Slab',serif;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.butao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-success {
+    font-size: 30px;
+}
+
+    /* Estilos para o carrossel */
+.carousel {
+      display: flex;
+      overflow: hidden;
+      width: 100%; /* Ajuste conforme necessário */
+      margin: 0 auto;
+}
+
+    /* Estilos para as imagens no carrossel */
+.carousel img {
+      width: 100%;
+      height: auto;
+}
+
+    /* Estilos para as legendas no carrossel */
+.carousel figcaption {
+      text-align: center;
+      margin-top: 5px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    background-color: #662c96c7;
+    color: #fff;
+    padding: 20px;
+    height: 340px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comeco-rodape {
+    display: contents;
+}
+
+.logo-rodape {
+    width: 85px;
+    height: 85px;
+}
+
+.footer-item {
+    margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+.footer-final {
+    margin-top: 15px;
+    display: flex;
+    color: #eee;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
